@@ -1,0 +1,10 @@
+---
+layout: page
+title: Directory
+---
+
+<ul>{% for resource in posts|sort:"title" %}
+  <li><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></li>
+{% empty %}
+  <li>Coming soon...</li>
+{% endfor %}</ul>
