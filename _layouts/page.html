@@ -6,11 +6,12 @@
   <title>{{ page.title }} @ OWL Resources</title>
   <style>
     body {background: url({{ "openwork_pattern_blue.png" | relative_url }});}
+    main {background: #fffa;}
   </style>
 </head>
-<body>
-  <h1><img src="{{ "openwork_avatar_black.png" | relative_url }}" />
+<body><main>
+  <h1><img width="32" src="{{ "openwork_avatar_black.png" | relative_url }}" />
     <a href="{{site.url}}">OWL Resources</a></h1>
   {{ content }}
-</body>
+</main></body>
 </html>
