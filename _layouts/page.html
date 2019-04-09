@@ -4,9 +4,13 @@
 <html>
 <head>
   <title>{{ page.title }} @ OWL Resources</title>
+  <style>
+    body {background: url({{ "openwork_pattern_blue.png" | relative_url }});}
+  </style>
 </head>
 <body>
-  <h1><a href="{{site.url}}">OWL Resources</a></h1>
+  <h1><img src="{{ "openwork_avatar_black.png" | relative_url }}" />
+    <a href="{{site.url}}">OWL Resources</a></h1>
   {{ content }}
 </body>
 </html>
