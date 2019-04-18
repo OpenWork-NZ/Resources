@@ -5,13 +5,17 @@
 <head>
   <title>{{ page.title }} @ OWL Resources</title>
   <style>
-    body {background: url({{ "openwork_pattern_blue.png" | relative_url }});}
+    body {background: url({{ "openwork_pattern_blue.png" | relative_url }}); text-align: center;}
     main {background: #fffd;}
+    h1 {font-size: 64px;}
+    a:link {color: #0C3C60;}
+    a:active, a:hover {color: #F28507;}
+    a:visited {color: #F1B434;}
   </style>
   <link rel="icon" src="{{ "openwork_avatar_black.png" | relative_url }}" />
 </head>
 <body><main>
-  <h1><a href="{{site.baseurl}}"><img width="32" src="{{ "openwork_avatar_black.png" | relative_url }}" /></a>
+  <h1><a href="{{site.baseurl}}"><img width="64" src="{{ "openwork_avatar_black.png" | relative_url }}" /></a>
     OWL Resources</h1>
   {{ content }}
 </main></body>
