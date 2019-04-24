@@ -10,6 +10,6 @@ title: Directory
 </p>
 <p>Code reposositories: <a href="https://git.nzoss.org.nz/openwork/">NZ OSS</a> | <a href="https://github.com/OpenWork-NZ">GitHub</a></p>
 
-<ul>{% for resource in posts|sort:"title" %}
+<ul>{% for resource in site.posts|sort:"title" %}
   <li><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></li>
 {% endfor %}</ul>
