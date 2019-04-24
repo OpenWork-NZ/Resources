@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Installing GeoNetwork
+date: 2019-04-24 15:15:18 1200
 ---
 
 # Installing GeoNetwork on a server
