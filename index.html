@@ -28,5 +28,5 @@ title: Directory
 <h2>Documentation</h2>
 <dl>{% for resource in site.posts|sort:"title" %}
   <dt><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></dt>
-  <dd>{{ resource.description }}</dd>
+  {% if resource.description %}<dd>{{ resource.description }}</dd>{% endif %}
 {% endfor %}</dl>
