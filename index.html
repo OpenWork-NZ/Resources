@@ -25,7 +25,8 @@ title: Directory
   <dd>Because most software developers have an account there.</dd>
 </dl>
 
-<h2>Documentation>
+<h2>Documentation</h2>
 <dl>{% for resource in site.posts|sort:"title" %}
   <dt><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></dt>
+  <dd>{{ resource.description }}</dd>
 {% endfor %}</dl>
