@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Installing GeoNetwork
+description: Instructions for how to install GeoNetwork 3.44 on a Debian server.
 date: 2019-04-24 15:15:18 1200
 ---
 
