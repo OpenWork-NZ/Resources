@@ -4,8 +4,9 @@ title: Directory
 ---
 
 <p>
-  <a href="https://openwork.nz/" title="Our website">OpenWork</a>
+  <a href="https://openwork.nz/">OpenWork Ltd website</a>
 </p>
+
 <h2>OWL Projects</h2>
 <dl>
   <dt><a href="https://geodata.nz/">GeoData.NZ catalogue</a></dt>
@@ -15,8 +16,16 @@ title: Directory
   <dt><a href="https://git.nzoss.org.nz/openwork/libdggs" title="lightweight geospatial analysis">libdggs</a></dt>
   <dd>Lightweight geospatial analysis using the Discrete Global Grid Systems standards.</dd>
 </dl>
-<p>Code reposositories: <a href="https://git.nzoss.org.nz/openwork/">NZ OSS</a> | <a href="https://github.com/OpenWork-NZ">GitHub</a></p>
 
-<ul>{% for resource in site.posts|sort:"title" %}
-  <li><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></li>
-{% endfor %}</ul>
+<h2>Code Repositories</h2>
+<dl>
+  <dt><a href="https://git.nzoss.org.nz/openwork/">NZ OSS</a></dt>
+  <dd>Hosted for the New Zealand Open Source Society by Catalyst Cloud in NZ.</dd>
+  <dt><a href="https://github.com/OpenWork-NZ">GitHub</a></dt>
+  <dd>Because most software developers have an account there.</dd>
+</dl>
+
+<h2>Documentation>
+<dl>{% for resource in site.posts|sort:"title" %}
+  <dt><a href="{{ resource.url | relative_url }}">{{ resource.title }}</a></dt>
+{% endfor %}</dl>
