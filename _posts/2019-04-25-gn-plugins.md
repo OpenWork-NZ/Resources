@@ -1,6 +1,7 @@
 ---
 layout: page
 title: GeoNetwork Metadata plugins
+description: Precompiled GeoNetwork plugin schemas for v3.6.
 date: 2019-04-25 08:59:31 1200
 ---
 
